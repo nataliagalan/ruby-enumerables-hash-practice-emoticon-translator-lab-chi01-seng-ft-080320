@@ -11,11 +11,10 @@ def load_library(path)
    emoticons_hash[english_meaning] ||= {}
    emoticons_hash[english_meaning][:english] = emoticon_array[0]
    emoticons_hash[english_meaning][:japanese] = emoticon_array[1]
-binding.pry
  end
  emoticons_hash
 end
-binding.pry
+
 
 def get_japanese_emoticon(path, english_emoticon)
   # code goes here
