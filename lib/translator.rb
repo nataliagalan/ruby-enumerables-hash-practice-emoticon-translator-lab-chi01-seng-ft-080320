@@ -11,7 +11,7 @@ def load_library(path)
    emoticons_hash[name] ||= {}
    emoticons_hash[name][:english] = array[0]
    emoticons_hash[name][:japanese] = array[1]
-
+binding.pry
  end
  emoticons_hash
 end
