@@ -15,7 +15,7 @@ binding.pry
  end
  emoticons_hash
 end
-
+binding.pry
 
 def get_japanese_emoticon(path, english_emoticon)
   # code goes here
