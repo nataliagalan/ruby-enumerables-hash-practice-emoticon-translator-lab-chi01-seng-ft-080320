@@ -20,7 +20,7 @@ end
 def get_japanese_emoticon(path, english_emoticon)
   # code goes here
   library = load_library(path)
-  library.each do |english_meaning, inner_hash| # english_meaning= "angel"   # value= ["O:)", "☜(⌒▽⌒)☞"]
+  library.each do |english_meaning, inner_hash| # english_meaning= "happy" inner_hash= {:english => ":)", :japanese => "(＾ｖ＾)"}
     return inner_hash[:japanese] if inner_hash[:english] == english_emoticon
   end
   "Sorry, that emoticon was not found"
